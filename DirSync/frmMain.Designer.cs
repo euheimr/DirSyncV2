@@ -38,7 +38,6 @@
             this.fromLabel = new System.Windows.Forms.Label();
             this.toLabel = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.saveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // okButton
@@ -117,25 +116,13 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(468, 23);
             this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "DirectorySync v1";
+            this.textBox1.Text = "DirectorySync v2";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // saveButton
-            // 
-            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.Location = new System.Drawing.Point(18, 145);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(92, 23);
-            this.saveButton.TabIndex = 10;
-            this.saveButton.Text = "no workie";
-            this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // frmMain
             // 
             this.AccessibleDescription = "";
-            this.ClientSize = new System.Drawing.Size(498, 180);
-            this.Controls.Add(this.saveButton);
+            this.ClientSize = new System.Drawing.Size(498, 350);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.toLabel);
             this.Controls.Add(this.fromLabel);
@@ -162,7 +149,6 @@
         private System.Windows.Forms.Label fromLabel;
         private System.Windows.Forms.Label toLabel;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button saveButton;
     }
 }
 
